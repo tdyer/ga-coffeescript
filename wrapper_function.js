@@ -13,10 +13,25 @@
   (function(){})(some parameter). There are a few other 
   ways to write a self invoking function but this is the 
   most common.
+
+  The call method/function is available on all javascript functions.
 */
 
 
 (function() {
   console.log("hello from the wrapper function");
+
+  this.exposedGlobal = "GA";
+
+  this.anotherExposedGlobal = "Tuesday";
+
+  this.exposedGlobalFunction = function() {
+    return console.log("This is a global function");
+    /*
+      take a look at 'this' and 'window'
+      inside the chrome debugger
+    */
+
+  };
 
 }).call(this);
