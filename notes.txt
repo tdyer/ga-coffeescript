@@ -1,0 +1,42 @@
+* Why Coffeescript
+  * Language the compiles into javascript. 
+  * Ruby like 
+  * Write less code.
+  * Classes natively
+
+* Install
+** Coffeescript is available as a node.js utility.
+** Install Node with Homebrew
+    brew install node 
+    brew upgrade node
+    # v0.10.22 is my version
+** Install npm Node Package Mananger (npm)
+   npm install -g coffee-script
+   # 1.3.14
+** Check that coffeescript is installed
+   coffee -v
+   # CoffeeScript version 1.6.3
+
+* Coffeescript usage:
+   coffee --help
+   or 
+   http://coffeescript.org/ go to the Usage section
+
+* Watch for changes to your coffeescript files and compile into 
+   javascript.
+   coffee --watch --compile script.coffee
+
+* Lets write some coffeescript.
+** For each of the below files:
+*** Open up the coffeescript and javascript files side by side 
+    in your editor.
+*** Insert the javascript filename into the src attribute of the the 
+    script tag in the index.html file. Open index.html in the browser
+    and step though in the chrome debugger.
+*** simple_function.coffee
+*** array_objects.coffee
+*** operator_aliases.coffee
+*** variable_scope.coffee
+  
+
+
