@@ -4,6 +4,15 @@
   * Write less code.
   * Classes natively
 
+* References
+** ProgrammingCoffeeScript by Mark Bates
+   Mark is local Somerville guy that is one of the organizers of the
+   Boston Ruby Group. Buy his book and thank him for the best (IMHO) 
+   CoffeeScript book.
+   http://metabates.com/books.html
+** Many of the below examples have been lifted, I mean inspired, from
+   this book.
+
 * Install
 ** Coffeescript is available as a node.js utility.
 ** Install Node with Homebrew
@@ -33,10 +42,25 @@
 *** Insert the javascript filename into the src attribute of the the 
     script tag in the index.html file. Open index.html in the browser
     and step though in the chrome debugger.
+*** OR you can install phantomjs, a headless browser, using howbrew
+    brew install phantomjs
+    And run each example below
+    phantomjs <filename.coffee>
 *** simple_function.coffee
 *** array_objects.coffee
 *** operator_aliases.coffee
 *** variable_scope.coffee
+*** wrapper_function.coffee
+*** in_array.coffee
+*** swap_assignment.coffee
+*** ranges.coffee
+*** multiple_assignment.s
+*** object_hashes.coffee
+*** loops.coffee
+*** comprehesions.coffee
+*** simple_classes.coffee
+*** class_with_constructor.coffee
+*** class_inheritence.coffee
   
 
 
